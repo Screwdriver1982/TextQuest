@@ -11,20 +11,32 @@ public class TextGameQuest : MonoBehaviour
     public Text contentTextVar;
 
     [Header("Config")]
-    [Tooltip("Game title")]public string title = "Game Title";
-    
-    [TextArea(minLines: 1, maxLines: 10)]public string content = "Content Text";
+    [Tooltip("Game title")] public string title = "Game Title";
+
+    public Step activeStep;
 
     // Start is called before the first frame update
     void Start()
     {
         titleTextVar.text = title;
-        contentTextVar.text = content;
+        contentTextVar.text = activeStep.content;
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            activeStep = activeStep.exitFirst;
+            contentTextVar.text = activeStep.content;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            activeStep = activeStep.exitSecond;
+            contentTextVar.text = activeStep.content;
+        }
+
     }
 }
