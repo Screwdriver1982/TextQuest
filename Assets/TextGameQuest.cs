@@ -20,8 +20,11 @@ public class TextGameQuest : MonoBehaviour
     {
         titleTextVar.text = title;
         contentTextVar.text = activeStep.content;
+        //string[] weekDays = { "Sunday", "Monday", "Tuesday", "Wenesday", "Thursday", "Friday", "Saturday" };
+        //Debug.Log(weekDays[6]);
+        //Debug.Log(weekDays.Length);
 
-        
+
     }
 
     // Update is called once per frame
@@ -29,14 +32,31 @@ public class TextGameQuest : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
-            activeStep = activeStep.exitFirst;
-            contentTextVar.text = activeStep.content;
+            CheckPress(0)
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
         {
-            activeStep = activeStep.exitSecond;
+            CheckPress(1)
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
+        {
+            CheckPress(2)
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4))
+        {
+            CheckPress(3)
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5) || Input.GetKeyDown(KeyCode.Keypad5))
+        {
+            CheckPress(4)
+        }
+    }
+    void CheckPress(int index)
+    {
+        if ((activeStep.nextSteps.Length > index) && activeStep.nextSteps[index] != null)
+        {
+            activeStep = activeStep.nextSteps[index];
             contentTextVar.text = activeStep.content;
         }
-
     }
 }

@@ -230,8 +230,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: 'You''ve entered room #2'
-  exitFirst: {fileID: 2104188780}
-  exitSecond: {fileID: 1368863383}
+  nextSteps:
+  - {fileID: 2104188780}
 --- !u!1 &285005845
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,8 +510,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: 'You''ve entered room #1'
-  exitFirst: {fileID: 190473780}
-  exitSecond: {fileID: 2104188780}
+  nextSteps:
+  - {fileID: 2104188780}
+  - {fileID: 1368863383}
 --- !u!1 &1063968223
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,8 +692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: 'You''ve entered room #4'
-  exitFirst: {fileID: 2006881375}
-  exitSecond: {fileID: 2006881375}
+  nextSteps:
+  - {fileID: 2006881375}
 --- !u!1 &1749680858
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,8 +816,9 @@ MonoBehaviour:
     1. Go to Step 1
 
     2. Go to Step 2'
-  exitFirst: {fileID: 744648223}
-  exitSecond: {fileID: 190473780}
+  nextSteps:
+  - {fileID: 744648223}
+  - {fileID: 190473780}
 --- !u!1 &2043342438
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,8 +926,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: 'You''ve entered room #3'
-  exitFirst: {fileID: 1368863383}
-  exitSecond: {fileID: 190473780}
+  nextSteps:
+  - {fileID: 190473780}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &2104188781
 Transform:
   m_ObjectHideFlags: 0
