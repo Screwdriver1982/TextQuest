@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u0447\u043D\u044B\u0435 \u0432\u043E\u0440\u043E\u0442\u0430"
   content: Forum
   stepImage: {fileID: 21300000, guid: 530ac7234b9fe3143bcedbbe1f19ee68, type: 3}
   eventNumber: 0
@@ -173,7 +174,7 @@ MonoBehaviour:
   - {fileID: 484263867}
   - {fileID: 0}
   - {fileID: 0}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &62000349
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,6 +248,130 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62000349}
   m_CullTransparentMesh: 0
+--- !u!1 &107139210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 107139211}
+  - component: {fileID: 107139212}
+  m_Layer: 0
+  m_Name: Narrow Streets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &107139211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107139210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1063968224}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &107139212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107139210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0425\u0440\u0430\u043C\u043E\u0432\u044B\u0435 \u0432\u043E\u0440\u043E\u0442\u0430"
+  content: Forum
+  stepImage: {fileID: 21300000, guid: 530ac7234b9fe3143bcedbbe1f19ee68, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 0}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &115731546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115731547}
+  - component: {fileID: 115731548}
+  m_Layer: 0
+  m_Name: Slave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115731547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115731546}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2041158635}
+  - {fileID: 1184865501}
+  - {fileID: 1971650296}
+  m_Father: {fileID: 1019352884}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &115731548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115731546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u041F\u0440\u043E\u0434\u0430\u0435\u0442\u0441\u044F \u0440\u0430\u0431!
+    \u041F\u0440\u043E\u0434\u0430\u0435\u0442\u0441\u044F \u0440\u0430\u0431! \u041C\u044B\u0448\u0446
+    \u043D\u0435\u0442, \u043C\u043E\u0437\u0433\u043E\u0432 \u043D\u0435\u0442,
+    \u043D\u043E \u0437\u0430\u0442\u043E \u043E\u043D, \u0423\u0440\u0430\u043D
+    \u043C\u0435\u043D\u044F \u0440\u0430\u0437\u0431\u0435\u0440\u0438, \u043A\u0440\u0430\u0441\u0438\u0432
+    \u043A\u0430\u043A \u0410\u043F\u043F\u043E\u043B\u043E\u043D \u0438 \u0438\u0433\u0440\u0430\u0435\u0442
+    \u043D\u0430 \u0434\u0443\u0434\u043E\u0447\u043A\u0435! \u0412\u0441\u0435\u0433\u043E
+    150 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432.\n\n1. \u0410 \u0432\u043E\u0442
+    \u0432\u043E\u0437\u044C\u043C\u0443 \u0438 \u043A\u0443\u043F\u043B\u044E! \u0414\u0443\u0434\u043E\u0447\u043A\u0430
+    \u0432 \u043D\u0430\u0448\u0435 \u0432\u0440\u0435\u043C\u044F \u043C\u0435\u0436\u0434\u0443
+    \u043F\u0440\u043E\u0447\u0438\u043C \u041E-\u0433\u043E-\u0433\u043E \u043A\u0430\u043A
+    \u0432\u0430\u0436\u043D\u0430.\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 013185ad10470be499e5ee08d05362d8, type: 3}
+  eventNumber: 11
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 2041158634}
+  - {fileID: 1184865500}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &134890631
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +445,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134890631}
   m_CullTransparentMesh: 0
+--- !u!1 &170398733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 170398735}
+  - component: {fileID: 170398734}
+  m_Layer: 0
+  m_Name: Sell Crystall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &170398734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170398733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0418\u0441\u0430\u0430\u043A \u043F\u0440\u0438\u0441\u0442\u0430\u043B\u044C\u043D\u043E
+    \u0440\u0430\u0437\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u0435\u0442 \u043A\u0430\u043C\u0435\u043D\u044C.
+    \u0412\u043E\u0442! \u0422\u0430\u043A \u0438 \u0437\u043D\u0430\u043B, \u0447\u0442\u043E
+    \u043D\u0430\u0434\u0443\u0440\u044F\u0442. \u0412\u043E\u0442 \u0441\u043A\u043E\u043B,
+    \u0434\u0430 \u0438 \u043C\u0443\u0442\u043D\u044B\u0439 \u043A\u0430\u043A\u043E\u0439-\u0442\u043E.
+    \u042D\u0445, \u043F\u0435\u0440\u0435\u0431\u043E\u0440\u0449\u0438\u043B \u044F,
+    \u043F\u0435\u0440\u0435\u0431\u043E\u0440\u0449\u0438\u043B. \u041D\u043E \u043D\u0438\u0447\u0435\u0433\u043E
+    \u043D\u0435 \u043F\u043E\u0434\u0435\u043B\u0430\u0435\u0448\u044C, \u0431\u0438\u0437\u043D\u0435\u0441
+    \u0435\u0441\u0442\u044C \u0431\u0438\u0437\u043D\u0435\u0441. \u0412\u0441\u0435
+    \u0432 \u0443\u0431\u044B\u0442\u043E\u043A \u0441\u0435\u0431\u0435, \u0432\u0441\u0435
+    \u0432 \u0443\u0431\u044B\u0442\u043E\u043A...\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 704dbfbef56e6d74fa0a6eaee8923a14, type: 3}
+  eventNumber: 10
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 702946239}
+  - {fileID: 1019352885}
+  stuffNeed: f40100000000000000000000000000000000000000000000000000000000000000000000ffffffff000000000000000000000000
+--- !u!4 &170398735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170398733}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629975347}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &190317051
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +685,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285005845}
   m_CullTransparentMesh: 0
+--- !u!1 &312560556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312560557}
+  - component: {fileID: 312560558}
+  m_Layer: 0
+  m_Name: Legioner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312560557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312560556}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1365690999}
+  - {fileID: 801241662}
+  - {fileID: 1121127228}
+  m_Father: {fileID: 654796333}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312560558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312560556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0413\u0440\u0443\u043F\u043F\u0430 \u043B\u0435\u0433\u0438\u043E\u043D\u0435\u0440\u043E\u0432.\n\n1.
+    \u041C\u043D\u0435 \u043E\u0447\u0435\u043D\u044C \u043D\u0443\u0436\u043D\u0430
+    \u043E\u0445\u0440\u0430\u043D\u0430 \u0432 \u044D\u0442\u043E\u043C \u0431\u0435\u0437\u0443\u043C\u043D\u043E\u043C
+    \u0433\u043E\u0440\u043E\u0434\u0435 (300 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432).\n2.
+    \u0418\u043C\u0435\u043D\u0435\u043C \u0421\u0435\u043D\u0430\u0442\u0430 \u0431\u044B\u0441\u0442\u0440\u043E
+    \u043E\u0442\u0434\u0430\u0439\u0442\u0435 \u0441\u0432\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435,
+    \u043F\u043B\u0435\u0431\u0435\u0438!\n3. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0444\u043E\u0440\u0443\u043C."
+  stepImage: {fileID: 21300000, guid: 46ee6ee89f63a7d489cab6421a9ac5d1, type: 3}
+  eventNumber: 5
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 1365690998}
+  - {fileID: 801241661}
+  - {fileID: 425862245}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &364443623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364443624}
+  - component: {fileID: 364443625}
+  m_Layer: 0
+  m_Name: Death with Vesta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364443624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364443623}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517875101}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364443625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364443623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0412\u0430\u0441 \u0437\u0430\u0432\u0430\u043B\u0438\u043B\u043E \u043F\u0435\u043F\u043B\u043E\u043C"
+  content: "\u0412\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u044C \u0438\u0437\u0432\u0435\u0440\u0436\u0435\u043D\u0438\u0435
+    \u0412\u0435\u0437\u0443\u0432\u0438\u044F \u0432 \u043E\u0431\u044A\u044F\u0442\u0438\u044F\u0445
+    \u043C\u043E\u043B\u043E\u0434\u043E\u0439 \u0432\u0435\u0441\u0442\u0430\u043B\u043A\u0438,
+    \u0447\u0442\u043E \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u0440\u043E\u043C\u0430\u043D\u0442\u0438\u0447\u043D\u0435\u0435!
+    \u041A \u0441\u043E\u0436\u0430\u043B\u0435\u043D\u0438\u044E \u0432\u044B\u043B\u043A\u0430\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+    \u043F\u0435\u043F\u0435\u043B \u043D\u0435 \u0441\u043E\u0432\u043C\u0435\u0441\u0442\u0438\u043C
+    \u0441 \u0436\u0438\u0437\u043D\u044C\u044E, \u0434\u0430\u0436\u0435 \u0441\u0442\u043E\u043B\u044C
+    \u043F\u0440\u0438\u044F\u0442\u043D\u043E\u0439.\n\n\u041F\u0440\u043E\u0431\u0435\u043B
+    - \u041D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E"
+  stepImage: {fileID: 21300000, guid: 0ee7568aaa8fc334695a760801880223, type: 3}
+  eventNumber: 9
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 1858661150}
+  stuffNeed: 0000000000000000000000000000000000000000ffffffff00000000000000000000000000000000000000000000000000000000
 --- !u!1 &376516430
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +885,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376516430}
   m_CullTransparentMesh: 0
+--- !u!1 &384860950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 384860951}
+  - component: {fileID: 384860952}
+  m_Layer: 0
+  m_Name: Not enought gold for power
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &384860951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384860950}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 786101279}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &384860952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384860950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u041C\u043D\u0435 \u0437\u043E\u043B\u043E\u0442\u043E \u0441\u0430\u043B\u0445\u0438\u043C\u0438\u0447\u0438\u0442\u044C
+    \u0432\u043E\u043E\u0431\u0449\u0435 \u0442\u0440\u0443\u0434\u0430 \u043D\u0435
+    \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442, \u044F \u0444\u0438\u043B\u043E\u0441\u043E\u0444\u0441\u043A\u0438\u0439
+    \u043A\u0430\u043C\u0435\u043D\u044C \u0434\u0430\u0432\u043D\u044B\u043C \u0434\u0430\u0432\u043D\u043E
+    \u0440\u0430\u0441\u043A\u0443\u0441\u0438\u043B\u0430. \u041C\u043D\u0435 \u043F\u0440\u043E\u0441\u0442\u043E
+    \u043B\u0435\u043D\u044C, \u0442\u0430\u043A \u0447\u0442\u043E \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E
+    \u043D\u0435 \u0440\u0430\u0437\u0434\u0430\u044E.\n\n1. \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u0431\u0435\u0441\u0435\u0434\u0443\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 13ab2e09b0cb97d4c986ad22ba8c4533, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 786101280}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &386394400
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,7 +959,7 @@ GameObject:
   - component: {fileID: 386394402}
   - component: {fileID: 386394401}
   m_Layer: 0
-  m_Name: Patriciy
+  m_Name: Sculptor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -597,9 +977,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "Patriciy\n1. \u041A\u0443\u043F\u0438 \u043A\u0440\u043E\u043A\u043E\u0434\u0438\u043B\u0430!\n2.
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E \u0442\u0435\u0431\u044F,
+    \u0443\u0442\u043E\u043D\u0447\u0435\u043D\u043D\u0430\u044F \u043D\u0430\u0442\u0443\u0440\u0430!
+    \u042F \u0437\u043D\u0430\u044E, \u0432 \u0442\u0432\u043E\u0435\u043C \u0441\u0435\u0440\u0434\u0446\u0435
+    \u0435\u0441\u0442\u044C \u043C\u0435\u0441\u0442\u043E \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u043E\u043C\u0443,
+    \u0430 \u0432 \u0442\u0432\u043E\u0435\u043C \u043A\u043E\u0448\u0435\u043B\u044C\u043A\u0435
+    \u0437\u0432\u0435\u043D\u0438\u0442 \u043F\u0430\u0440\u0430 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432.
+    \u042F \u0442\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u043E \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B
+    \u044D\u0442\u043E\u0442 \u0430\u043D\u0442\u0438\u0447\u043D\u044B\u0439 \u0448\u0435\u0434\u0435\u0432\u0440.
+    \u041E\u043D, \u0431\u0435\u0437\u0443\u0441\u043B\u043E\u0432\u043D\u043E, \u0431\u0443\u0434\u0435\u0442
+    \u0436\u0438\u0442\u044C \u0432 \u0432\u0435\u043A\u0430\u0445! \u041E\u0442\u0434\u0430\u043C
+    \u0437\u0430 200 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432, \u0441\u0447\u0438\u0442\u0430\u0439
+    \u0434\u0430\u0440\u043E\u043C.\n\n1. \u0414\u0430, \u044D\u0442\u043E \u043E\u0447\u0435\u043D\u044C
+    \u0432\u044B\u0433\u043E\u0434\u043D\u043E\u0435 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435
+    \u0434\u0435\u043D\u0435\u0433 (200 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432)\n2.
     \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
-  stepImage: {fileID: 21300000, guid: 2dfae920065a3624e856ae28efaf4dbf, type: 3}
+  stepImage: {fileID: 21300000, guid: 453539cf2fe8bed45adfab7d54112de9, type: 3}
   eventNumber: 1
   eventChangeNumber: 0
   nextSteps:
@@ -608,7 +1002,7 @@ MonoBehaviour:
   - {fileID: 1191261619}
   - {fileID: 1601752939}
   - {fileID: 654796334}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!4 &386394402
 Transform:
   m_ObjectHideFlags: 0
@@ -626,6 +1020,118 @@ Transform:
   m_Father: {fileID: 654796333}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &420118358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420118360}
+  - component: {fileID: 420118359}
+  m_Layer: 0
+  m_Name: Hire Vesta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &420118359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420118358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u0430\u0441 \u0441\u043E\u043F\u0440\u043E\u0432\u043E\u0436\u0434\u0430\u0435\u0442
+    \u043E\u0431\u0432\u043E\u0440\u043E\u0436\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F
+    \u0432\u0435\u0441\u0442\u0430\u043B\u043A\u0430.\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 0ee7568aaa8fc334695a760801880223, type: 3}
+  eventNumber: 6
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 2033890980}
+  - {fileID: 654796334}
+  stuffNeed: ceffffff000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &420118360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420118358}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1461437289}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &425862243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 425862244}
+  - component: {fileID: 425862245}
+  m_Layer: 0
+  m_Name: Legioner Kill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &425862244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425862243}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -77.7876, y: -194.80957, z: 222.34164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1826330106}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &425862245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425862243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0412\u0430\u0441 \u0443\u0431\u0438\u043B\u0438 \u043B\u0435\u0433\u0438\u043E\u043D\u0435\u0440\u044B"
+  content: "\u042D\u0442\u043E \u0431\u044B\u043B\u0430 \u043E\u0447\u0435\u043D\u044C
+    \u0433\u043B\u0443\u043F\u0430\u044F \u0438\u0434\u0435\u044F \u0431\u0440\u043E\u0441\u0430\u0442\u044C\u0441\u044F
+    \u0432 \u043E\u0434\u0438\u043D\u043E\u0447\u043A\u0443 \u043D\u0430 \u0445\u043E\u0440\u043E\u0448\u043E
+    \u0432\u043E\u043E\u0440\u0443\u0436\u0435\u043D\u043D\u044B\u0445 \u043B\u0435\u0433\u0438\u043E\u043D\u0435\u0440\u043E\u0432.\n\n\u041F\u0440\u043E\u0431\u0435\u043B
+    - \u043D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E."
+  stepImage: {fileID: 21300000, guid: 46ee6ee89f63a7d489cab6421a9ac5d1, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &437496979
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,8 +1166,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 100.3, y: 14.6}
-  m_SizeDelta: {x: 358.2, y: 368.3}
+  m_AnchoredPosition: {x: 75.5, y: 11.4}
+  m_SizeDelta: {x: 407.9, y: 374.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &437496981
 MonoBehaviour:
@@ -683,12 +1189,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f133c69ebfd83c1428afdb4b36a8b859, type: 3}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 2
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -732,10 +1238,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u041C\u0430\u043B\u043E \u0437\u043E\u043B\u043E\u0442\u0430\n\n1. \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
-    \u0431\u0435\u0441\u0435\u0434\u0443\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
-    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
-  stepImage: {fileID: 21300000, guid: 2dfae920065a3624e856ae28efaf4dbf, type: 3}
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041D\u0430\u0441\u0442\u043E\u044F\u0449\u0435\u0435 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u043E
+    \u0431\u0435\u0441\u0446\u0435\u043D\u043D\u043E, \u043D\u043E \u0432\u0430\u043C
+    \u0432\u0441\u0435 \u0440\u0430\u0432\u043D\u043E \u043D\u0430 \u043D\u0435\u0433\u043E
+    \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u0437\u043E\u043B\u043E\u0442\u0438\u0448\u043A\u0430.\n\n1.
+    \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0431\u0435\u0441\u0435\u0434\u0443\n2.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 453539cf2fe8bed45adfab7d54112de9, type: 3}
   eventNumber: 0
   eventChangeNumber: 0
   nextSteps:
@@ -744,7 +1254,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 386394401}
   - {fileID: 654796334}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!4 &483764184
 Transform:
   m_ObjectHideFlags: 0
@@ -802,16 +1312,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: 'You Die! Vulcanooooo!
-
-
-    Space - Start new game'
+  title: "\u0412\u0430\u0441 \u0437\u0430\u0432\u0430\u043B\u0438\u043B\u043E \u043F\u0435\u043F\u043B\u043E\u043C"
+  content: "\u0412\u044B \u043F\u043E\u0433\u0438\u0431\u043B\u0438 \u043F\u0440\u0438
+    \u0438\u0437\u0432\u0435\u0440\u0436\u0435\u043D\u0438\u0438 \u0412\u0435\u0437\u0443\u0432\u0438\u044F.
+    \u041D\u0435 \u0433\u0440\u0443\u0441\u0442\u0438\u0442\u0435, \u0432\u044B \u043D\u0435
+    \u043E\u0434\u0438\u043D\u043E\u043A\u0438, \u0442\u0430\u043A\u0438\u0445 \u043A\u0430\u043A
+    \u0432\u044B \u0431\u044B\u043B\u043E \u0434\u0432\u0435 \u0442\u044B\u0441\u044F\u0447\u0438
+    \u0447\u0435\u043B\u043E\u0432\u0435\u043A.\n\n\u041F\u0440\u043E\u0431\u0435\u043B
+    - \u043D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E."
   stepImage: {fileID: 21300000, guid: 530ac7234b9fe3143bcedbbe1f19ee68, type: 3}
   eventNumber: 0
   eventChangeNumber: 0
   nextSteps:
   - {fileID: 2006881375}
-  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +1409,450 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &520799652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 520799653}
+  - component: {fileID: 520799654}
+  m_Layer: 0
+  m_Name: Legioner Kill 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &520799653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520799652}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -77.7876, y: -194.80957, z: 222.34164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1826330106}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &520799654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520799652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0412\u0430\u0441 \u0443\u0431\u0438\u043B \u0432\u0430\u0441 \u0436\u0435
+    \u043E\u0445\u0440\u0430\u043D\u043D\u0438\u043A"
+  content: "\u042D\u0442\u043E \u0431\u044B\u043B\u0430 \u043E\u0447\u0435\u043D\u044C
+    \u0433\u043B\u0443\u043F\u0430\u044F \u0438\u0434\u0435\u044F. \u041D\u0435\u0443\u0436\u0435\u043B\u0438
+    \u0432\u044B \u0434\u0443\u043C\u0430\u043B\u0438, \u0447\u0442\u043E \u041C\u0430\u0440\u043A
+    \u043F\u0440\u0435\u0434\u043F\u043E\u0447\u0442\u0435\u0442 \u0432\u0430\u0441
+    \u0441\u0432\u043E\u0438\u043C \u0431\u043E\u0435\u0432\u044B\u043C \u0442\u043E\u0432\u0430\u0440\u0438\u0449\u0430\u043C?\n\n\u041F\u0440\u043E\u0431\u0435\u043B
+    - \u043D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E."
+  stepImage: {fileID: 21300000, guid: 46ee6ee89f63a7d489cab6421a9ac5d1, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &629975346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629975347}
+  - component: {fileID: 629975348}
+  m_Layer: 0
+  m_Name: Jeweler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &629975347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629975346}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 640040159}
+  - {fileID: 170398735}
+  - {fileID: 702946238}
+  m_Father: {fileID: 1019352884}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &629975348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629975346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0418\u0430\u043A\u043E\u0432, \u0442\u044B \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0438!
+    \u041A \u043D\u0430\u043C \u0442\u0430\u043A\u0438 \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+    \u043F\u0440\u0438\u0448\u0435\u043B \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435\u043B\u044C!
+    \u041B\u044E\u0431\u0435\u0437\u043D\u044B\u0439, \u0432\u044B \u043A\u043E\u043D\u0435\u0447\u043D\u043E
+    \u0436\u0435 \u0445\u043E\u0442\u0438\u0442\u0435 \u043D\u0430\u043C \u043F\u0440\u043E\u0434\u0430\u0442\u044C
+    \u0441\u0432\u043E\u0438 \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u043E\u0441\u0442\u0438?\n\n1.
+    \u0414\u0430, \u0443 \u043C\u0435\u043D\u044F \u0435\u0441\u0442\u044C \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u044B\u0439
+    \u043A\u0430\u043C\u0435\u043D\u044C.\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 704dbfbef56e6d74fa0a6eaee8923a14, type: 3}
+  eventNumber: 10
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 640040158}
+  - {fileID: 170398734}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &636403698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636403699}
+  - component: {fileID: 636403700}
+  m_Layer: 0
+  m_Name: Patriciy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &636403699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636403698}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 640711752}
+  - {fileID: 1008322480}
+  - {fileID: 1794432788}
+  m_Father: {fileID: 654796333}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &636403700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636403698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041F\u0441\u0441... \u043A\u0430\u043A \u0442\u0430\u043C \u0442\u0435\u0431\u044F,
+    \u043F\u043B\u0435\u0431\u0441, \u0441\u044E\u0434\u0430. \u0427\u0442\u043E,
+    \u043D\u0435 \u0432\u0438\u0434\u0438\u0448\u044C, \u0437\u043D\u0430\u0442\u043D\u044B\u0439
+    \u0433\u0440\u0430\u0436\u0434\u0430\u043D\u0438\u043D \u0432 \u043D\u0443\u0436\u0434\u0435.
+    \u0425\u043E\u0440\u043E\u0448\u043E, \u0443\u0433\u043E\u0432\u043E\u0440\u0438\u043B,
+    \u0440\u0430\u0437 \u0442\u0435\u0431\u0435 \u0442\u0430\u043A \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F
+    \u043C\u043E\u0439 \u041A\u0440\u043E-\u043A\u043E, \u043E\u0442\u0434\u0430\u043C
+    \u0442\u0435\u0431\u0435 \u0435\u0433\u043E \u0437\u0430 100 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432,
+    \u043D\u043E \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043E\u0442\u043E\u043C\u0443,
+    \u0447\u0442\u043E \u0441\u0435\u0433\u043E\u0434\u043D\u044F 24 \u0430\u0432\u0433\u0443\u0441\u0442\u0430
+    \u0438 \u044F \u0434\u043E\u0431\u0440\u044B\u0439.\n\n1. \u0412\u0441\u0435\u0433\u0434\u0430
+    \u043C\u0435\u0447\u0442\u0430\u043B \u043E\u0431\u0437\u0430\u0432\u0435\u0441\u0442\u0438\u0441\u044C
+    \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u043C \u043F\u0438\u0442\u043E\u043C\u0446\u0435\u043C
+    (100 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432)\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 2dfae920065a3624e856ae28efaf4dbf, type: 3}
+  eventNumber: 2
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 640711751}
+  - {fileID: 1008322479}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &640040157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640040159}
+  - component: {fileID: 640040158}
+  m_Layer: 0
+  m_Name: Jeweler2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &640040158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640040157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0417\u0430\u043A\u0440\u044B\u0442\u043E, \u0437\u0430\u043A\u0440\u044B\u0442\u043E!
+    \u0418\u0430\u043A\u043E\u0432, \u0432\u044B \u043F\u043E\u0433\u0440\u0443\u0437\u0438\u043B\u0438
+    \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435 \u043A\u0430\u043C\u0435\u0448\u043A\u0438?
+    \u041F\u043E\u0440\u0430 \u0432 \u043F\u0443\u0442\u044C, \u043F\u043E\u043A\u0430
+    \u0434\u043E\u0440\u043E\u0433\u0438 \u043D\u0435 \u0437\u0430\u0432\u0430\u043B\u0438\u043B\u043E
+    \u043F\u0435\u043F\u043B\u043E\u043C. \u042D\u0445\u0445\u0445, \u0442\u044F\u0436\u0435\u043B\u0430\u044F
+    \u0434\u043E\u043B\u044F, \u0432\u0441\u0435 \u0432 \u0431\u0435\u0433\u0430\u0445,
+    \u0432\u0441\u0435 \u0431\u0435\u0433\u0430\u0445, \u0431\u0435\u0437 \u0441\u0432\u043E\u0435\u0439
+    \u0437\u0435\u043C\u043B\u0438 \u043D\u0435\u043F\u0440\u0438\u043A\u0430\u044F\u043D\u043D\u044B\u0435...
+    \n\u0417\u0430\u043A\u0440\u044B\u0442\u043E \u044F \u0433\u043E\u0432\u043E\u0440\u044E,
+    \u0447\u0435\u0433\u043E \u0442\u0430\u0440\u0430\u0449\u0438\u0448\u044C\u0441\u044F!\n\n1.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 704dbfbef56e6d74fa0a6eaee8923a14, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &640040159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640040157}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629975347}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &640711750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640711752}
+  - component: {fileID: 640711751}
+  m_Layer: 0
+  m_Name: Patriciy2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &640711751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640711750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041A\u0430\u043A \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u0435\u043D
+    \u043D\u0430\u0448 \u0433\u043E\u0440\u043E\u0434, \u043A\u0430\u043A \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u0430
+    \u043F\u0440\u0438\u0440\u043E\u0434\u0430 \u0432\u043E\u043A\u0440\u0443\u0433,
+    \u043A\u0430\u043A \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u044B \u044D\u0442\u0438
+    \u0447\u0435\u0440\u043D\u044B\u0435 \u0442\u0443\u0447\u0438 \u043D\u0430\u0434
+    \u0432\u0435\u043B\u0438\u043A\u0438\u043C \u0412\u0435\u0437\u0443\u0432\u0438\u0435\u043C!\n\n1.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 2dfae920065a3624e856ae28efaf4dbf, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &640711752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640711750}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 636403699}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &647252631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 647252633}
+  - component: {fileID: 647252632}
+  m_Layer: 0
+  m_Name: Sell Kro-ko
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &647252632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647252631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u041F\u0440\u043E\u0449\u0430\u0439 \u041A\u0440\u043E-\u043A\u043E!
+    \u041D\u0435 \u0431\u0443\u0434\u044C\u0442\u0435 \u0441 \u043D\u0438\u043C \u0441\u0442\u0440\u043E\u0433\u0438, 
+    \u0443 \u043D\u0435\u0433\u043E \u0431\u044B\u043B\u043E \u0442\u044F\u0436\u0435\u043B\u043E\u0435
+    \u0434\u0435\u0442\u0441\u0442\u0432\u043E.\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 2538fa56c17800545995543809b4e698, type: 3}
+  eventNumber: 3
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 1292377868}
+  - {fileID: 1019352885}
+  stuffNeed: c800000000000000ffffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &647252633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647252631}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1536402397}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &650953756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650953758}
+  - component: {fileID: 650953757}
+  m_Layer: 0
+  m_Name: kung fu 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &650953757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650953756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0421\u0435\u043D\u0441\u0435\u0439\n\u0412\u044B \u0442\u0440\u0435\u043D\u0438\u0440\u0443\u0435\u0442\u0435\u0441\u044C
+    \u0435\u0449\u0435 \u0443\u0441\u0435\u0440\u0434\u043D\u0435\u0435, \u0432\u0430\u0448\u0438
+    \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F \u0441\u0438\u043B\u044C\u043D\u044B
+    \u0438 \u043C\u043E\u043B\u043D\u0438\u0435\u043D\u043E\u0441\u043D\u044B. \u041A\u0430\u0436\u0435\u0442\u0441\u044F
+    \u0441\u0430\u043C\u043E \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u043E
+    \u043A\u0440\u043E\u0448\u0438\u0442\u0441\u044F \u0432 \u043F\u044B\u043B\u044C!
+    \u0418\u043B\u0438 \u044D\u0442\u043E \u0432\u0441\u0435 \u0436\u0435 \u043F\u0435\u043F\u0435\u043B
+    \u043E\u0442 \u0412\u0435\u0437\u0443\u0432\u0438\u044F...\n\n1. \u0415\u0449\u0435
+    \u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F...\n2.
+    \u041C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F, \u044F \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+    \u043F\u043E\u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u043B\u0441\u044F.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C."
+  stepImage: {fileID: 21300000, guid: 0eb3ceee658c9814ebd59ac53ea916f2, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1927158972}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &650953758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650953756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1315795188}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &654796332
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,6 +1882,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 386394402}
+  - {fileID: 636403699}
+  - {fileID: 1315795188}
+  - {fileID: 702486107}
+  - {fileID: 312560557}
+  - {fileID: 1461437289}
   m_Father: {fileID: 1063968224}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -939,9 +1902,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
   content: "\u0412\u044B \u043D\u0430 \u0424\u043E\u0440\u0443\u043C\u0435\n\n1.
-    \u041F\u0430\u0442\u0440\u0438\u0446\u0438\u0439 \u0441\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u043C
-    \u0437\u0435\u043B\u0435\u043D\u044B\u043C \u043C\u0435\u0448\u043A\u043E\u043C"
+    \u0421\u043A\u0443\u043B\u044C\u0442\u043E\u0440\n2. \u041F\u0430\u0442\u0440\u0438\u0446\u0438\u0439\n3.
+    \u041F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u043A
+    \u0441 \u0432\u043E\u0441\u0442\u043E\u043A\u0430\n4. \u041F\u043E\u0432\u0430\u0440\n5.
+    \u0413\u0440\u0443\u043F\u043F\u0430 \u0432\u043E\u043E\u0440\u0443\u0436\u0435\u043D\u043D\u044B\u0445
+    \u043B\u0435\u0433\u0438\u043E\u043D\u0435\u0440\u043E\u0432\n6. \u0413\u0440\u0443\u043F\u043F\u0430
+    \u0412\u0435\u0441\u0442\u0430\u043B\u043E\u043A\n7. \u041D\u0430 \u0440\u044B\u043D\u043E\u043A\n8.
+    \u041D\u0430 \u0445\u0440\u0430\u043C\u043E\u0432\u0443\u044E \u043F\u043B\u043E\u0449\u0430\u0434\u044C"
   stepImage: {fileID: 21300000, guid: 530ac7234b9fe3143bcedbbe1f19ee68, type: 3}
   eventNumber: 0
   eventChangeNumber: 0
@@ -950,14 +1919,398 @@ MonoBehaviour:
   - {fileID: 484263867}
   - {fileID: 0}
   - {fileID: 386394401}
-  - {fileID: 386394401}
-  - {fileID: 386394401}
-  - {fileID: 386394401}
-  - {fileID: 386394401}
-  - {fileID: 386394401}
-  - {fileID: 386394401}
-  - {fileID: 386394401}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - {fileID: 636403700}
+  - {fileID: 1315795189}
+  - {fileID: 702486108}
+  - {fileID: 312560558}
+  - {fileID: 1461437290}
+  - {fileID: 1019352885}
+  - {fileID: 1686678906}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &702486106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702486107}
+  - component: {fileID: 702486108}
+  m_Layer: 0
+  m_Name: Cooker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &702486107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702486106}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2055925922}
+  - {fileID: 1527178041}
+  - {fileID: 710381098}
+  m_Father: {fileID: 654796333}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &702486108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702486106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041F\u043E\u0432\u0430\u0440 \u0438\u0437 \u0442\u0430\u0432\u0435\u0440\u043D\u044B
+    \"\u0414\u0440\u0443\u0437\u044C\u044F \u0411\u0430\u0445\u0443\u0441\u0430\".
+    \u0413\u0440\u0430\u0436\u0434\u0430\u043D\u0438\u043D! \u0412\u044B \u0434\u043E\u043B\u0436\u043D\u044B
+    \u043C\u043D\u0435 \u043F\u043E\u043C\u043E\u0447\u044C! \u0411\u0443\u043B\u043E\u0447\u043A\u0438
+    \u0432 \u043D\u0430\u0448\u0435\u0439 \u0442\u0430\u0432\u0435\u0440\u043D\u0435
+    \u0435\u043B \u0435\u0449\u0435 \u0441\u0430\u043C \u0421\u0443\u043B\u043B\u0430!
+    \u041C\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u043C \u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C
+    \u043D\u0430\u0448\u0438\u0445 \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435\u043B\u0435\u0439
+    \u0431\u0435\u0437 \u044D\u0442\u043E\u0433\u043E \u043B\u0430\u043A\u043E\u043C\u0441\u0442\u0432\u0430.
+    \u041D\u043E \u0443 \u043D\u0430\u0441 \u043A\u043E\u043D\u0447\u0438\u043B\u0430\u0441\u044C
+    \u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\u0438\u0439\u0441\u043A\u0430\u044F
+    \u043C\u0443\u043A\u0430! \u0412\u0441\u0435 \u043F\u0440\u043E\u043F\u0430\u043B\u043E!
+    \u041C\u044B \u043F\u043E\u0442\u0435\u0440\u044F\u0435\u043C \u0432\u0441\u0435\u0445
+    \u043A\u043B\u0438\u0435\u043D\u0442\u043E\u0432!\n\n1. \u0423 \u043C\u0435\u043D\u044F
+    \u043A\u0430\u043A \u0440\u0430\u0437 \u0435\u0441\u0442\u044C \u043D\u0435\u043C\u043D\u043E\u0433\u043E
+    \u043C\u0443\u043A\u0438 \u043F\u043E \u0441\u043A\u0440\u043E\u043C\u043D\u043E\u0439
+    \u0446\u0435\u043D\u0435.\n2. \u041C\u043E\u0436\u0435\u0442 \u0442\u0435\u0431\u0435
+    \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0432\u043C\u0435\u0441\u0442\u043E
+    \u043C\u0443\u043A\u0438 \u043F\u0435\u043F\u0435\u043B? \u0415\u0433\u043E \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435
+    10 \u043C\u0438\u043D\u0443\u0442 \u0432\u044B\u043F\u0430\u043B\u043E \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0444\u043E\u0440\u0443\u043C."
+  stepImage: {fileID: 21300000, guid: 871bf008fe697f84f9ff9c72c410364f, type: 3}
+  eventNumber: 4
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 2055925921}
+  - {fileID: 1527178040}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &702946237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702946238}
+  - component: {fileID: 702946239}
+  m_Layer: 0
+  m_Name: Not enought crystall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &702946238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702946237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629975347}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &702946239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702946237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0428\u043E \u0432\u044B \u0432 \u0441\u0430\u043C\u043E\u043C \u0434\u0435\u043B\u0435
+    \u043C\u043E\u0440\u043E\u0447\u0438\u0442\u0435 \u043D\u0430\u043C \u0433\u043E\u043B\u043E\u0432\u0443!
+    \u041C\u044B \u0437\u0430\u043D\u044F\u0442\u044B\u0435 \u043B\u044E\u0434\u0438!\n\n1.
+    \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0431\u0435\u0441\u0435\u0434\u0443\n2.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 704dbfbef56e6d74fa0a6eaee8923a14, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 629975348}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &710381097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710381098}
+  - component: {fileID: 710381099}
+  m_Layer: 0
+  m_Name: Not enought Weat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710381098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710381097}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 702486107}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &710381099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710381097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0428\u0443\u0442\u043A\u0438 \u0432\u0437\u0434\u0443\u043C\u0430\u043B
+    \u0448\u0443\u0442\u0438\u0442\u044C!? \u0420\u0435\u043F\u0443\u0442\u0430\u0446\u0438\u044F
+    \u0441\u0435\u0440\u044C\u0435\u0437\u043D\u043E\u0433\u043E \u0437\u0430\u0432\u0435\u0434\u0435\u043D\u0438\u044F
+    \u043D\u0430 \u043A\u043E\u043D\u0443!\n\n1. \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u0431\u0435\u0441\u0435\u0434\u0443\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 871bf008fe697f84f9ff9c72c410364f, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 702486108}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &786101278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 786101279}
+  - component: {fileID: 786101280}
+  m_Layer: 0
+  m_Name: Alchemistry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &786101279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786101278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1656321108}
+  - {fileID: 933083493}
+  - {fileID: 384860951}
+  m_Father: {fileID: 1019352884}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &786101280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786101278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0412 \u043C\u043E\u0435\u0439 \u043B\u0430\u0432\u043A\u0435 \u043F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F
+    \u0442\u043E\u043B\u044C\u043A\u043E \u0441\u0430\u043C\u044B\u0435 \u043B\u0443\u0447\u0448\u0438\u0435
+    \u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+    \u043C\u043E\u0433\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435
+    \u0437\u0435\u043B\u044C\u044F \u0438 \u044D\u043B\u0438\u043A\u0441\u0438\u0440\u044B.
+    \u041E\u043D\u0438 \u0432\u0441\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u044E\u0442
+    \u0431\u0435\u0437\u043E\u0442\u043A\u0430\u0437\u043D\u043E, \u0447\u0435\u0441\u0442\u043D\u043E,
+    \u0447\u0435\u0441\u0442\u043D\u043E.\n\u0412\u043E\u0442 \u043A\u0430\u043A
+    \u0440\u0430\u0437 \u0441\u0433\u043E\u0442\u043E\u0432\u0438\u043B\u043E\u0441\u044C
+    \u0432\u0435\u043B\u0438\u043A\u043E\u043B\u0435\u043F\u043D\u043E\u0435 \u0437\u0435\u043B\u044C\u0435
+    \u0421\u0438\u043B\u044B, \u0431\u0440\u0430\u0442\u044C \u0431\u0443\u0434\u0435\u0448\u044C?\n\n1.
+    \u0410 \u0442\u043E! \u041A\u043E\u043D\u0435\u0447\u043D\u043E! (50 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432)\n2.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 13ab2e09b0cb97d4c986ad22ba8c4533, type: 3}
+  eventNumber: 8
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 1656321107}
+  - {fileID: 933083492}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &801241660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 801241662}
+  - component: {fileID: 801241661}
+  m_Layer: 0
+  m_Name: Hire Legioner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &801241661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801241660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u0430\u0441 \u0441\u043E\u043F\u0440\u043E\u0432\u043E\u0436\u0434\u0430\u0435\u0442
+    \u043B\u0435\u0433\u0438\u043E\u043D\u0435\u0440 \u041C\u0430\u0440\u043A \u041A\u0440\u044B\u0441\u043E\u0431\u043E\u0439.\n\n1.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 46ee6ee89f63a7d489cab6421a9ac5d1, type: 3}
+  eventNumber: 5
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 1121127229}
+  - {fileID: 654796334}
+  stuffNeed: d4feffff000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &801241662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801241660}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 312560557}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &851357329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 851357331}
+  - component: {fileID: 851357330}
+  m_Layer: 0
+  m_Name: Beastmaster2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &851357330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851357329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u041F\u043E\u043A\u0443\u043F\u0430\u044E \u0441\u0435\u0440\u044B\u0445
+    \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445! \u041F\u043E\u043A\u0443\u043F\u0430\u044E
+    \u0441\u0435\u0440\u044B\u0445 \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445!
+    \u0427\u0435\u0433\u043E \u0442\u044B \u043C\u043D\u0435 \u0441\u0432\u043E\u0435\u0433\u043E
+    \u043A\u043E\u0437\u043B\u0430 \u043F\u0435\u043F\u043B\u043E\u043C \u043E\u0431\u0441\u044B\u043F\u0430\u043D\u043D\u043E\u0433\u043E
+    \u0441\u0443\u0435\u0448\u044C! \u0421\u043E\u0432\u0435\u0441\u0442\u044C \u0442\u043E
+    \u0438\u043C\u0435\u0439!\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 2538fa56c17800545995543809b4e698, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &851357331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851357329}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1536402397}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880467043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,6 +2388,124 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880467043}
   m_CullTransparentMesh: 0
+--- !u!1 &933083491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 933083493}
+  - component: {fileID: 933083492}
+  m_Layer: 0
+  m_Name: Buy Power Potion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &933083492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933083491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0425\u043E\u0442\u044F \u0432\u0430\u0440\u0435\u0432\u043E \u0438
+    \u043E\u0442\u0434\u0430\u0435\u0442 \u0441\u043C\u0435\u0441\u044C\u044E \u043D\u0430\u0432\u043E\u0437\u0430
+    \u0438 \u043C\u044B\u0448\u044C\u044F\u043A\u0430, \u0432\u044B, \u043D\u0435
+    \u0440\u0430\u0437\u0434\u0443\u043C\u044B\u0432\u0430\u044F, \u0432\u044B\u043F\u0438\u0432\u0430\u0435\u0442\u0435
+    \u0435\u0433\u043E. \u041D\u0435\u0437\u0430\u043C\u0435\u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+    \u043D\u0430\u0447\u0430\u0432\u0448\u0438\u0435\u0441\u044F \u043C\u0435\u0442\u0435\u043E\u0440\u0438\u0437\u043C\u044B,
+    \u043E\u0434\u043D\u043E\u0437\u043D\u0430\u0447\u043D\u043E \u044F\u0432\u043B\u044F\u044E\u0442\u0441\u044F
+    \u043F\u0440\u0438\u0437\u043D\u0430\u043A\u043C\u0438 \u043E\u0431\u0440\u0435\u0442\u0435\u043D\u043D\u043E\u0439
+    \u0421\u0438\u043B\u044B \u0413\u0435\u0440\u043A\u0443\u043B\u0435\u0441\u0430.\n\n1.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 13ab2e09b0cb97d4c986ad22ba8c4533, type: 3}
+  eventNumber: 8
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 384860952}
+  - {fileID: 1019352885}
+  stuffNeed: ceffffff000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000
+--- !u!4 &933083493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933083491}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 786101279}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1008322478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008322480}
+  - component: {fileID: 1008322479}
+  m_Layer: 0
+  m_Name: Buy Crocodile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1008322479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008322478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041A\u0440\u043E\u043A\u043E\u0434\u0438\u043B \u043A\u0443\u043F\u043B\u0435\u043D\n\n1.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 2dfae920065a3624e856ae28efaf4dbf, type: 3}
+  eventNumber: 2
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 1794432789}
+  - {fileID: 654796334}
+  stuffNeed: 9cffffff000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &1008322480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008322478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 636403699}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019352883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,7 +2533,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 786101279}
+  - {fileID: 1517875101}
+  - {fileID: 629975347}
+  - {fileID: 115731547}
+  - {fileID: 1536402397}
   m_Father: {fileID: 1063968224}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1078,7 +2554,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: Forum
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "1. \u041D\u0430 \u0424\u043E\u0440\u0443\u043C\n2. \u0410\u043B\u0445\u0438\u043C\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+    \u043B\u0430\u0432\u043A\u0430\n3. \u0422\u0430\u0432\u0435\u0440\u043D\u0430
+    \"\u0414\u0440\u0443\u0437\u044C\u044F \u0411\u0430\u0445\u0443\u0441\u0430\"\n4.
+    \u042E\u0432\u0435\u043B\u0438\u0440\u043D\u0430\u044F \u043B\u0430\u0432\u043A\u0430
+    \"\u0418\u0441\u0430\u0430\u043A \u0438 \u0441\u044B\u043D\u043E\u0432\u044C\u044F\"\n5.
+    \u0410\u0443\u043A\u0446\u0438\u043E\u043D \u043D\u0435\u0432\u043E\u043B\u044C\u043D\u0438\u043A\u043E\u0432\n6.
+    \u0422\u043E\u0440\u0433\u043E\u0432\u0435\u0446 \u044D\u043A\u0437\u043E\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u043C\u0438
+    \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u043C\u0438\n7. \u0412 \u041F\u043E\u0440\u0442\n8.
+    \u041A\u0440\u0438\u0432\u044B\u0435 \u0443\u043B\u043E\u0447\u043A\u0438 \u041F\u043E\u043C\u043F\u0435\u0439"
   stepImage: {fileID: 21300000, guid: 530ac7234b9fe3143bcedbbe1f19ee68, type: 3}
   eventNumber: 0
   eventChangeNumber: 0
@@ -1086,8 +2571,15 @@ MonoBehaviour:
   - {fileID: 2006881375}
   - {fileID: 484263867}
   - {fileID: 0}
-  - {fileID: 0}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - {fileID: 654796334}
+  - {fileID: 786101280}
+  - {fileID: 1517875102}
+  - {fileID: 629975348}
+  - {fileID: 115731548}
+  - {fileID: 1536402398}
+  - {fileID: 2063659270}
+  - {fileID: 107139212}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1063968223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,8 +2613,187 @@ Transform:
   - {fileID: 1686678905}
   - {fileID: 17869766}
   - {fileID: 1882220040}
+  - {fileID: 2063659269}
+  - {fileID: 107139211}
   m_Father: {fileID: 0}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1121127227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1121127228}
+  - component: {fileID: 1121127229}
+  m_Layer: 0
+  m_Name: Not enought gold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1121127228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121127227}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 312560557}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1121127229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121127227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041F\u0440\u0438\u0445\u043E\u0434\u0438, \u043A\u043E\u0433\u0434\u0430
+    \u0440\u0430\u0437\u0436\u0438\u0432\u0435\u0448\u044C\u0441\u044F \u0437\u043E\u043B\u043E\u0442\u0438\u0448\u043A\u043E\u043C.\n\n1.
+    \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0431\u0435\u0441\u0435\u0434\u0443\n2.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 46ee6ee89f63a7d489cab6421a9ac5d1, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 312560558}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &1138588738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138588740}
+  - component: {fileID: 1138588739}
+  m_Layer: 0
+  m_Name: Vesta2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1138588739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138588738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0416\u0440\u0438\u0446\u044B \u0412\u0435\u0441\u0442\u044B \u0431\u043E\u043B\u044C\u0448\u0435
+    \u043D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u044E\u0442 \u043D\u0430 \u0432\u0430\u0441
+    \u043D\u0438\u043A\u0430\u043A\u043E\u0433\u043E \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F.\n\n1.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 0ee7568aaa8fc334695a760801880223, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &1138588740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138588738}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1461437289}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1184865499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1184865501}
+  - component: {fileID: 1184865500}
+  m_Layer: 0
+  m_Name: Buy Slave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1184865500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184865499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u044B \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0430\u044F,
+    \u0441\u043E\u043B\u044C, \u0442\u0430\u043A \u0441\u043A\u0430\u0437\u0430\u0442\u044C,
+    \u0414\u0440\u0435\u0432\u043D\u0435\u0440\u0438\u043C\u0441\u043A\u043E\u0439
+    \u0417\u0435\u043C\u043B\u0438, \u043D\u0430 \u0442\u0430\u043A\u0438\u0445 \u0440\u0430\u0431\u043E\u0432\u043B\u0430\u0434\u0435\u043B\u044C\u0446\u0430\u0445
+    \u043A\u0430\u043A \u0432\u044B, \u0434\u0435\u0440\u0436\u0438\u0442\u0441\u044F
+    \u0432\u0441\u044F \u0446\u0438\u0432\u0438\u043B\u0438\u0437\u043E\u0432\u0430\u043D\u043D\u0430\u044F
+    \u043E\u0439\u043A\u0443\u043C\u0435\u043D\u0430!\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A \u0441 \u0447\u0443\u0432\u0441\u0442\u0432\u043E\u043C
+    \u0432\u0430\u0436\u043D\u043E\u0441\u0442\u0438"
+  stepImage: {fileID: 21300000, guid: 013185ad10470be499e5ee08d05362d8, type: 3}
+  eventNumber: 11
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 1971650297}
+  - {fileID: 1019352885}
+  stuffNeed: 6affffff000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
+--- !u!4 &1184865501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184865499}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 115731547}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1191261618
 GameObject:
@@ -1135,7 +2806,7 @@ GameObject:
   - component: {fileID: 1191261620}
   - component: {fileID: 1191261619}
   m_Layer: 0
-  m_Name: Patriciy2
+  m_Name: Sculptor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1153,14 +2824,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u041A\u0430\u043A \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u0435\u043D
-    \u043D\u0430\u0448 \u0433\u043E\u0440\u043E\u0434, \u043A\u0430\u043A \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u0430
-    \u043F\u0440\u0438\u0440\u043E\u0434\u0430 \u0432\u043E\u043A\u0440\u0443\u0433,
-    \u043A\u0430\u043A \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u044B \u044D\u0442\u0438
-    \u0447\u0435\u0440\u043D\u044B\u0435 \u0442\u0443\u0447\u0438 \u043D\u0430\u0434
-    \u0432\u0435\u043B\u0438\u043A\u0438\u043C \u0412\u0435\u0437\u0443\u0432\u0438\u0435\u043C!\n\n1.
-    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
-  stepImage: {fileID: 21300000, guid: 2dfae920065a3624e856ae28efaf4dbf, type: 3}
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041C\u043E\u044F \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0430\u044F
+    \u0440\u0430\u0431\u043E\u0442\u0430 \u0431\u0443\u0434\u0435\u0442 \u043F\u043E\u0441\u0432\u044F\u0449\u0435\u043D\u0430
+    \u0431\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u043C\u0443
+    \u0438\u043C\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u0443 \u0422\u0438\u0442\u0443
+    \u0424\u043B\u0430\u0432\u0438\u044E, \u0434\u0430\u043D\u043D\u043E\u043C\u0443
+    \u043D\u0430\u043C \u043C\u0438\u043B\u043E\u0441\u0442\u0438\u044E \u0441\u0430\u043C\u043E\u0433\u043E 
+    \u042E\u043F\u0438\u0442\u0435\u0440\u0430.\n\u0410 \u0441\u0435\u0439\u0447\u0430\u0441
+    \u043F\u0440\u043E\u0448\u0443 \u043C\u0435\u043D\u044F \u043F\u0440\u043E\u0441\u0442\u0438\u0442\u044C,
+    \u0443 \u043C\u0435\u043D\u044F \u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C
+    \u043C\u0438\u043D\u0443\u0442 \u0434\u0435\u0441\u044F\u0442\u044C, \u0447\u0442\u043E\u0431\u044B
+    \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u0442\u044C.\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 453539cf2fe8bed45adfab7d54112de9, type: 3}
   eventNumber: 0
   eventChangeNumber: 0
   nextSteps:
@@ -1168,7 +2845,7 @@ MonoBehaviour:
   - {fileID: 484263867}
   - {fileID: 0}
   - {fileID: 654796334}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!4 &1191261620
 Transform:
   m_ObjectHideFlags: 0
@@ -1183,6 +2860,132 @@ Transform:
   m_Father: {fileID: 386394402}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1292377866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292377867}
+  - component: {fileID: 1292377868}
+  m_Layer: 0
+  m_Name: Not enought kroko
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292377867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292377866}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1536402397}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1292377868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292377866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0415\u0449\u0435 \u0440\u0430\u0437 \u043C\u0435\u043D\u044F \u043E\u0442\u0432\u043B\u0435\u0447\u0435\u0448\u044C
+    \u043F\u043E \u043F\u0443\u0441\u0442\u044F\u043A\u0443, \u043D\u0430\u0442\u0440\u0430\u0432\u043B\u044E
+    \u043D\u0430 \u0442\u0435\u0431\u044F \u0441\u043A\u0443\u043D\u0441\u0430!\n\n1.
+    \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0431\u0435\u0441\u0435\u0434\u0443\n2.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 2538fa56c17800545995543809b4e698, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1536402398}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &1315795187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1315795188}
+  - component: {fileID: 1315795189}
+  m_Layer: 0
+  m_Name: Sensey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1315795188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315795187}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1923068246}
+  - {fileID: 650953758}
+  - {fileID: 1927158973}
+  m_Father: {fileID: 654796333}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1315795189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315795187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0421\u0435\u043D\u0441\u0435\u0439\n\u041E\u043E\u043E\u043E! \u042F
+    \u0432\u0438\u0436\u0443 \u0432 \u0442\u0435\u0431\u0435 \u044D\u043D\u0435\u0440\u0433\u0438\u044E
+    \u0442\u0438\u0433\u0440\u0430! \u042F \u043D\u0430\u0443\u0447\u0443 \u0442\u0435\u0431\u044F
+    \u041A\u0443\u043D\u0433 \u0424\u0443! \u0414\u043B\u044F \u0440\u0430\u0441\u043A\u0440\u044B\u0442\u0438\u044F
+    \u0441\u0432\u043E\u0438\u0445 \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u0435\u0439
+    \u0442\u0435\u0431\u0435 \u0441\u0442\u043E\u0438\u0442 \u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F
+    \u043D\u0435\u043F\u0440\u0435\u0441\u0442\u0430\u043D\u043D\u043E!\n\n1. \u0423\u0447\u0438\u0442\u044C
+    \u041A\u0443\u043D\u0433 \u0424\u0443.\n2. \u041A\u0430\u043A\u043E\u0435 \u0435\u0449\u0435
+    \u041A\u0443\u043D\u0433 \u0424\u0443? \u041C\u044B \u0436\u0435 \u0440\u0438\u043C\u043B\u044F\u043D\u0435!
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C."
+  stepImage: {fileID: 21300000, guid: 0eb3ceee658c9814ebd59ac53ea916f2, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1923068247}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1337295123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +3086,323 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1365690997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1365690999}
+  - component: {fileID: 1365690998}
+  m_Layer: 0
+  m_Name: Legioner2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1365690998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365690997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0412\u0430\u0441 \u0441\u043E\u043F\u0440\u043E\u0432\u043E\u0436\u0434\u0430\u0435\u0442
+    \u043E\u0434\u0438\u043D \u0438\u0437 \u043B\u0435\u0433\u0438\u043E\u043D\u0435\u0440\u043E\u0432.
+    \u041E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0435 \u0440\u0430\u0437\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u044E\u0442
+    \u043F\u0440\u043E\u0445\u043E\u0434\u044F\u0449\u0438\u0445 \u0432\u0435\u0441\u0442\u0430\u043B\u043E\u043A.\n\n1.
+    \u0418\u043C\u0435\u043D\u0435\u043C \u0421\u0435\u043D\u0430\u0442\u0430! \u041E\u0442\u0434\u0430\u0439\u0442\u0435
+    \u0441\u0432\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435, \u043F\u043B\u0435\u0431\u0435\u0438.
+    \u041C\u0430\u0440\u043A, \u0432\u0437\u044F\u0442\u044C \u0438\u0445!\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 46ee6ee89f63a7d489cab6421a9ac5d1, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 520799654}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &1365690999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365690997}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 312560557}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1461437288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461437289}
+  - component: {fileID: 1461437290}
+  m_Layer: 0
+  m_Name: Vesta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1461437289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461437288}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1138588740}
+  - {fileID: 420118360}
+  - {fileID: 2033890979}
+  m_Father: {fileID: 654796333}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1461437290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461437288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0413\u0440\u0443\u043F\u043F\u0430 \u0412\u0435\u0441\u0442\u0430\u043B\u043E\u043A\n\n1.
+    \u041E, \u0447\u0438\u0441\u0442\u0435\u0439\u0448\u0430\u044F \u0434\u043E\u0447\u0435\u0440\u044C
+    \u0412\u0435\u0441\u0442\u044B! \u0418\u0434\u0435\u043C \u0441\u043E \u043C\u043D\u043E\u0439,
+    \u043A\u043E\u0435 \u043A\u043E\u043C\u0443, \u0442\u0430\u043A \u0441\u043A\u0430\u0436\u0435\u043C,
+    \u043D\u0443\u0436\u043D\u0430 \u0441\u0440\u043E\u0447\u043D\u0430 \u0442\u0432\u043E\u044F
+    \u043C\u043E\u043B\u0438\u0442\u0432\u0430 (50 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432)\n2.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0444\u043E\u0440\u0443\u043C."
+  stepImage: {fileID: 21300000, guid: 0ee7568aaa8fc334695a760801880223, type: 3}
+  eventNumber: 6
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 1138588739}
+  - {fileID: 420118359}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &1517875100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517875101}
+  - component: {fileID: 1517875102}
+  m_Layer: 0
+  m_Name: Taverna
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1517875101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517875100}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 364443624}
+  - {fileID: 1858661149}
+  m_Father: {fileID: 1019352884}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1517875102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517875100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C
+    \u0432 \u0442\u0430\u0432\u0435\u0440\u043D\u0443 \"\u0414\u0440\u0443\u0437\u044C\u044F
+    \u0411\u0430\u0445\u0443\u0441\u0430\". \u0423 \u043D\u0430\u0441 \u043E\u0442\u043B\u0438\u0447\u043D\u0430\u044F
+    \u0435\u0434\u0430 \u0438 \u0432\u0438\u043D\u043E. \u0415\u0441\u043B\u0438
+    \u0436\u0435 \u0432\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \"\u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C\"
+    \u0447\u0430\u0441\u043E\u043A-\u0434\u0440\u0443\u0433\u043E\u0439, \u0442\u043E
+    \u0438\u043C\u0435\u043D\u043D\u043E \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+    \u043F\u043E\u0447\u0435\u043C\u0443-\u0442\u043E \u0432\u0441\u0435 \u043F\u043E\u0441\u0442\u043E\u044F\u043B\u044C\u0446\u044B
+    \u0441\u044A\u0435\u0445\u0430\u043B\u0438 \u0438 \u0432 \u0432\u0430\u0448\u0435\u043C
+    \u0440\u0430\u0441\u043F\u043E\u0440\u044F\u0436\u0435\u043D\u0438\u0438 \u043B\u044E\u0431\u0430\u044F
+    \u043A\u043E\u043C\u043D\u0430\u0442\u0430! \u041E\u043F\u043B\u0430\u0442\u0430
+    \u043F\u0440\u0438 \u0432\u044B\u0435\u0437\u0434\u0435, \u0432\u0441\u0435\u0433\u043E
+    5 \u0434\u0438\u043D\u0430\u0440\u0438\u0435\u0432.\n\n1. \u0420\u0430\u0437
+    \u043B\u044E\u0431\u0430\u044F, \u0442\u043E \u043C\u043D\u0435 \u0418\u043C\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u0441\u043A\u0438\u0439
+    \u041B\u044E\u043A\u0441!\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: bcf9d536ec96c5442afffa01fedb09fa, type: 3}
+  eventNumber: 9
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 364443625}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &1527178039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527178041}
+  - component: {fileID: 1527178040}
+  m_Layer: 0
+  m_Name: Sell Weat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1527178040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527178039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E! \u0412\u043E\u0442 \u0442\u0432\u043E\u0438
+    \u0434\u0438\u043D\u0430\u0440\u0438\u0438!\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 871bf008fe697f84f9ff9c72c410364f, type: 3}
+  eventNumber: 4
+  eventChangeNumber: 1
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 710381099}
+  - {fileID: 654796334}
+  stuffNeed: f401000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffff00000000
+--- !u!4 &1527178041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527178039}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 702486107}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1536402396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1536402397}
+  - component: {fileID: 1536402398}
+  m_Layer: 0
+  m_Name: Beastmaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1536402397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536402396}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 851357331}
+  - {fileID: 647252633}
+  - {fileID: 1292377867}
+  m_Father: {fileID: 1019352884}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1536402398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536402396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u041F\u043E\u043A\u0443\u043F\u0430\u044E \u0437\u0435\u043B\u0435\u043D\u044B\u0445
+    \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445! \u041F\u043E\u043A\u0443\u043F\u0430\u044E
+    \u0437\u0435\u043B\u0435\u043D\u044B\u0445 \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445!\n\n1.
+    \u0423 \u043C\u0435\u043D\u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0435\u0441\u0442\u044C
+    \u043E\u0434\u043D\u043E!\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 2538fa56c17800545995543809b4e698, type: 3}
+  eventNumber: 3
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 851357330}
+  - {fileID: 647252632}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1544549030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,8 +3437,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -194, y: -437}
-  m_SizeDelta: {x: 75.5, y: 37.8}
+  m_AnchoredPosition: {x: -168.1, y: -435.55}
+  m_SizeDelta: {x: 127.3, y: 34.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544549032
 MonoBehaviour:
@@ -1371,7 +3491,7 @@ GameObject:
   - component: {fileID: 1601752938}
   - component: {fileID: 1601752939}
   m_Layer: 0
-  m_Name: Buy Crocodile
+  m_Name: Buy Sculpture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1403,9 +3523,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u041A\u0440\u043E\u043A\u043E\u0434\u0438\u043B \u043A\u0443\u043F\u043B\u0435\u043D\n\n1.
-    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
-  stepImage: {fileID: 21300000, guid: 2dfae920065a3624e856ae28efaf4dbf, type: 3}
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0412\u044B \u043F\u0440\u0438\u043E\u0431\u0440\u0435\u043B\u0438 \u0441\u043A\u0443\u043B\u044C\u043F\u0442\u0443\u0440\u0443,
+    \u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C \u043D\u0430\u0439\u0442\u0438
+    \u0442\u043E\u0433\u043E, \u043A\u043E\u043C\u0443 \u0435\u0435 \u043C\u043E\u0436\u043D\u043E
+    \u0432\u0442\u044E\u0445\u0430\u0442\u044C.\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 453539cf2fe8bed45adfab7d54112de9, type: 3}
   eventNumber: 1
   eventChangeNumber: 1
   nextSteps:
@@ -1413,7 +3537,63 @@ MonoBehaviour:
   - {fileID: 484263867}
   - {fileID: 483764183}
   - {fileID: 654796334}
-  stuffNeed: 6400000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 38ffffff010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &1656321106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1656321108}
+  - component: {fileID: 1656321107}
+  m_Layer: 0
+  m_Name: Alchemistry2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1656321107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656321106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0427\u0442\u043E \u0442\u0430\u043A\u043E\u0435? \u0422\u043E\u0432\u0430\u0440
+    \u043E\u0431\u0440\u0430\u0442\u043D\u043E \u043D\u0435 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u043C!
+    \n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 13ab2e09b0cb97d4c986ad22ba8c4533, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &1656321108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656321106}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 786101279}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1686678904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,6 +3637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: "\u0425\u0440\u0430\u043C\u043E\u0432\u0430\u044F \u043F\u043B\u043E\u0449\u0430\u0434\u044C"
   content: Forum
   stepImage: {fileID: 21300000, guid: 530ac7234b9fe3143bcedbbe1f19ee68, type: 3}
   eventNumber: 0
@@ -1466,7 +3647,7 @@ MonoBehaviour:
   - {fileID: 484263867}
   - {fileID: 0}
   - {fileID: 0}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1749680858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,6 +3722,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749680858}
   m_CullTransparentMesh: 0
+--- !u!1 &1794432787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1794432788}
+  - component: {fileID: 1794432789}
+  m_Layer: 0
+  m_Name: Not enought gold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1794432788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794432787}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 636403699}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1794432789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794432787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041C\u0430\u043B\u043E \u0437\u043E\u043B\u043E\u0442\u0430\n\n1. \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u0431\u0435\u0441\u0435\u0434\u0443\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 2dfae920065a3624e856ae28efaf4dbf, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 636403700}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1826330105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,9 +3807,69 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 484263866}
+  - {fileID: 425862244}
+  - {fileID: 520799653}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1858661148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1858661149}
+  - component: {fileID: 1858661150}
+  m_Layer: 0
+  m_Name: Boring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1858661149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858661148}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517875101}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1858661150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858661148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0427\u0442\u043E \u0434\u0435\u043B\u0430\u0442\u044C \u0432 \u043E\u0434\u0438\u043D\u043E\u0447\u0435\u0441\u0442\u0432\u0435
+    \u0432 \u0442\u0430\u0432\u0435\u0440\u043D\u0435, \u043A\u043E\u0433\u0434\u0430
+    \u043D\u0430 \u0443\u043B\u0438\u0446\u0435 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442
+    \u0442\u0430\u043A\u043E\u0439 \u0434\u0432\u0438\u0436?\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: bcf9d536ec96c5442afffa01fedb09fa, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1882220039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,6 +3913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: "\u0425\u0440\u0430\u043C\u043E\u0432\u044B\u0435 \u0432\u043E\u0440\u043E\u0442\u0430"
   content: Forum
   stepImage: {fileID: 21300000, guid: 530ac7234b9fe3143bcedbbe1f19ee68, type: 3}
   eventNumber: 0
@@ -1624,7 +3923,193 @@ MonoBehaviour:
   - {fileID: 484263867}
   - {fileID: 0}
   - {fileID: 0}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &1923068245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1923068246}
+  - component: {fileID: 1923068247}
+  m_Layer: 0
+  m_Name: kung fu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1923068246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923068245}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1315795188}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1923068247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923068245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0421\u0435\u043D\u0441\u0435\u0439\n\u0412\u044B \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u0435\u0442\u0435,
+    \u043A\u0430\u043A \u044D\u043D\u0435\u0440\u0433\u0438\u044F \u041A\u0443\u043D\u0433
+    \u0424\u0443 \u0440\u0430\u0437\u043B\u0438\u0432\u0430\u0435\u0442\u0441\u044F
+    \u0432 \u0432\u043E\u0437\u0434\u0443\u0445\u0435! \u0418\u043B\u0438 \u044D\u0442\u043E
+    \u043F\u0440\u043E\u0441\u0442\u043E \u0434\u044B\u043C \u043E\u0442 \u0412\u0435\u0437\u0443\u0432\u0438\u044F...\n\n1.
+    \u0415\u0449\u0435 \u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F...\n2.
+    \u041C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F, \u044F \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+    \u043F\u043E\u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u043B\u0441\u044F.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C."
+  stepImage: {fileID: 21300000, guid: 0eb3ceee658c9814ebd59ac53ea916f2, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 650953757}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &1927158971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1927158973}
+  - component: {fileID: 1927158972}
+  m_Layer: 0
+  m_Name: kung fu 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1927158972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927158971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0421\u0435\u043D\u0441\u0435\u0439\n\u041D\u0435, \u043D\u0443 \u044D\u0442\u043E
+    \u0442\u043E\u0447\u043D\u043E \u043F\u0435\u043F\u0435\u043B! \u0425\u043E\u0442\u044F...
+    \u043C\u043E\u0436\u0435\u0442 \u044D\u0442\u0430 \u0432\u043E\u0441\u0442\u043E\u0447\u043D\u0430\u044F
+    \u044D\u043D\u0435\u0440\u0433\u0438\u044F \u0441\u0434\u0435\u043B\u0430\u0435\u0442
+    \u043C\u0435\u043D\u044F \u043D\u0435\u0443\u044F\u0437\u0432\u0438\u043C\u044B\u043C?\n\n1.
+    \u0415\u0449\u0435 \u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F...\n2.
+    \u041C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F, \u044F \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+    \u043F\u043E\u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u043B\u0441\u044F.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0424\u043E\u0440\u0443\u043C."
+  stepImage: {fileID: 21300000, guid: 0eb3ceee658c9814ebd59ac53ea916f2, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1923068247}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &1927158973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927158971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1315795188}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1971650295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1971650296}
+  - component: {fileID: 1971650297}
+  m_Layer: 0
+  m_Name: Not enought gold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1971650296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971650295}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 115731547}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971650297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971650295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u0414\u0430, \u0434\u0430, \u043E\u043D \u0442\u0435\u0431\u0435 \u0438
+    \u043F\u043E\u0434\u0443\u0434\u0438\u0442, \u0438 \u0441\u0442\u0430\u043D\u0446\u0443\u0435\u0442,
+    \u0438 \u0441\u043F\u043E\u0435\u0442, \u043A\u0430\u043A \u0442\u043E\u043B\u044C\u043A\u043E
+    \u0437\u0430\u043F\u043B\u0430\u0442\u0438\u0448\u044C \u0437\u043E\u043B\u043E\u0442\u043E\u043C.\n\n1.
+    \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0431\u0435\u0441\u0435\u0434\u0443\n2.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 013185ad10470be499e5ee08d05362d8, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 115731548}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &2006881373
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,6 +4153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: "\u041E\u0434\u0438\u043D \u0434\u0435\u043D\u044C \u0432 \u041F\u043E\u043C\u043F\u0435\u044F\u0445"
   content: 'First step of the game
 
     1. Forum'
@@ -1679,7 +4165,127 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 654796334}
-  stuffNeed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &2033890978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2033890979}
+  - component: {fileID: 2033890980}
+  m_Layer: 0
+  m_Name: Not enought gold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2033890979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033890978}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1461437289}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2033890980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033890978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u041D\u0435 \u0434\u0435\u043B\u043E, \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u044C
+    \u0441 \u043F\u0443\u0441\u0442\u044B\u043C\u0438 \u0440\u0443\u043A\u0430\u043C\u0438
+    \u043A \u0441\u043B\u0443\u0436\u0438\u0442\u0435\u043B\u044F\u043C \u043A\u0443\u043B\u044C\u0442\u0430.
+    \u0412\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0439\u0441\u044F, \u043A\u043E\u0433\u0434\u0430
+    \u0432 \u043A\u0430\u0440\u043C\u0430\u043D\u0435 \u0431\u0443\u0434\u0435\u0442
+    \u0437\u043E\u043B\u043E\u0442\u0438\u0448\u043A\u043E. (\u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E
+    \u0431\u044B\u043B\u0438 \u043B\u0438 \u0442\u043E\u0433\u0434\u0430 \u0443\u0436\u0435
+    \u043A\u0430\u0440\u043C\u0430\u043D\u044B)\n\n1. \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u0431\u0435\u0441\u0435\u0434\u0443\n2. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 0ee7568aaa8fc334695a760801880223, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1461437290}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!1 &2041158633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2041158635}
+  - component: {fileID: 2041158634}
+  m_Layer: 0
+  m_Name: Slave2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2041158634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041158633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0420\u044B\u043D\u043E\u043A"
+  content: "\u041D\u0435\u0432\u043E\u043B\u044C\u043D\u0438\u0447\u0438\u0439 \u043F\u0430\u0432\u0438\u043B\u044C\u043E\u043D
+    \u043F\u0443\u0441\u0442.\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0420\u044B\u043D\u043E\u043A"
+  stepImage: {fileID: 21300000, guid: 013185ad10470be499e5ee08d05362d8, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 1019352885}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &2041158635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041158633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 115731547}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2043342438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,6 +4363,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043342438}
   m_CullTransparentMesh: 0
+--- !u!1 &2055925920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055925922}
+  - component: {fileID: 2055925921}
+  m_Layer: 0
+  m_Name: Cooker2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2055925921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055925920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0424\u043E\u0440\u0443\u043C"
+  content: "\u0422\u044B \u0435\u0449\u0435 \u043D\u0435 \u043F\u0440\u043E\u0431\u043E\u0432\u0430\u043B
+    \u043D\u0430\u0448\u0443 \u0432\u044B\u043F\u0435\u0447\u043A\u0443? \u041E!
+    \u0422\u044B \u043C\u043D\u043E\u0433\u043E\u0435 \u0442\u0435\u0440\u044F\u0435\u0448\u044C!
+    \u0417\u0430\u0433\u043B\u044F\u043D\u0438 \u043A \u043D\u0430\u043C \u0432 \"\u0414\u0440\u0443\u0437\u044C\u044F
+    \u0411\u0430\u0445\u0443\u0441\u0430\", \u043F\u0440\u044F\u043C\u043E \u0437\u0430
+    \u0440\u044B\u043D\u043A\u043E\u043C.\n\n1. \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u0424\u043E\u0440\u0443\u043C"
+  stepImage: {fileID: 21300000, guid: 871bf008fe697f84f9ff9c72c410364f, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 654796334}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &2055925922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055925920}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 702486107}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2063659268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2063659269}
+  - component: {fileID: 2063659270}
+  m_Layer: 0
+  m_Name: Dock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2063659269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063659268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1063968224}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2063659270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063659268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864e7271f383e1b459692e634e04abbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "\u0425\u0440\u0430\u043C\u043E\u0432\u044B\u0435 \u0432\u043E\u0440\u043E\u0442\u0430"
+  content: Forum
+  stepImage: {fileID: 21300000, guid: 530ac7234b9fe3143bcedbbe1f19ee68, type: 3}
+  eventNumber: 0
+  eventChangeNumber: 0
+  nextSteps:
+  - {fileID: 2006881375}
+  - {fileID: 484263867}
+  - {fileID: 0}
+  - {fileID: 0}
+  stuffNeed: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &2136470378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,8 +4512,8 @@ MonoBehaviour:
   goldTextVar: {fileID: 880467045}
   locationImageVar: {fileID: 376516432}
   title: Title text
-  turnLeft: 10
-  stuff: 640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  maxTurn: 25
+  startStuff: 640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   activeStep: {fileID: 2006881375}
 --- !u!4 &2136470380
 Transform:

@@ -15,20 +15,50 @@ public class TextGameQuest : MonoBehaviour
 
     [Header("Config")]
     [Tooltip("Название игры")] public string title = "Game Title";
-    [Tooltip("Всего ходов")] public int turnLeft = 10;
-    [Tooltip("Предметов на старте")] public int[] stuff = { 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    [Tooltip("Всего ходов")] public int maxTurn = 10;
+    [Tooltip("Предметов на старте")] public int[] startStuff = { 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    int turnLeft;
+    int[] stuff = { 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
     public Step activeStep;
+    int[] startEventState = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     int[] eventsState = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
-    // Start is called before the first frame update
-    void Start()
+    void StartGame()
     {
-        titleTextVar.text = title;
+        for (int i = 0; i < eventsState.Length; ++i)
+        {
+            eventsState[i] = startEventState[i];
+        }
+
+        for (int i = 0; i < stuff.Length; ++i)
+        {
+            stuff[i] = startStuff[i];
+            Debug.Log(i + " - " + stuff[i]);
+        }
+        turnLeft = Random.Range(maxTurn - 3, maxTurn + 3);
+    }
+    void GameUpdate()
+    {
+        titleTextVar.text = activeStep.title;
         contentTextVar.text = activeStep.content;
-        turnLeftTextVar.text = turnLeft.ToString();
+        if (eventsState[16] == 1)
+        {
+            turnLeftTextVar.text = turnLeft.ToString();
+        }
+        else
+        {
+            turnLeftTextVar.text = "Что-то будет";
+        }
         goldTextVar.text = stuff[0].ToString();
         locationImageVar.sprite = activeStep.stepImage;
+    }
+
+    void Start()
+    {
+
+        StartGame();
+        GameUpdate();
 
 
     }
@@ -74,6 +104,7 @@ public class TextGameQuest : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Space) )
         {
+            StartGame();
             CheckPress(0);
         }
     }
@@ -91,9 +122,9 @@ public class TextGameQuest : MonoBehaviour
 
                 if ((activeStep.eventNumber == 0) || eventsState[activeStep.eventNumber] == 0)
                 {
-                    for (int i = 0; i < 11; ++i)
+                    for (int i = 0; i < 12; ++i)
                     {
-                        if (stuff[i] >= activeStep.stuffNeed[i])
+                        if (stuff[i] + activeStep.stuffNeed[i] >=0)
                         {
                             stuffEnough = stuffEnough && true;
                         }
@@ -106,9 +137,9 @@ public class TextGameQuest : MonoBehaviour
 
                     if (stuffEnough == true)
                     {
-                        for (int j = 0; j < 11; ++j)
+                        for (int j = 0; j < 12; ++j)
                         {
-                            stuff[j] = stuff[j] - activeStep.stuffNeed[j];
+                            stuff[j] = stuff[j] + activeStep.stuffNeed[j];
                         }
 
                         if (activeStep.eventChangeNumber == 1)
@@ -126,17 +157,13 @@ public class TextGameQuest : MonoBehaviour
                 {
                     activeStep = activeStep.nextSteps[2];
                 }
-                
-                turnLeftTextVar.text = turnLeft.ToString();
-                goldTextVar.text = stuff[0].ToString();
-                contentTextVar.text = activeStep.content;
-                locationImageVar.sprite = activeStep.stepImage;
+
+                GameUpdate();
             }
             else
             {
                 activeStep = activeStep.nextSteps[1];
-                contentTextVar.text = activeStep.content;
-                locationImageVar.sprite = activeStep.stepImage;
+                GameUpdate();
             }
 
 

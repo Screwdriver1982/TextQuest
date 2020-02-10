@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Step : MonoBehaviour
 {
+    public string title;
     [TextArea(minLines: 10, maxLines: 20)] public string content;
     public Sprite stepImage;
     public int eventNumber;
