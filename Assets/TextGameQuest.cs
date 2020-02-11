@@ -11,7 +11,11 @@ public class TextGameQuest : MonoBehaviour
     public Text contentTextVar;
     public Text turnLeftTextVar;
     public Text goldTextVar;
+    public Text blessTextVar;
+    public Image blessImageVar;
     public Image locationImageVar;
+    public Sprite blessImageExist;
+    public Sprite blessImageNotExist;
 
     [Header("Config")]
     [Tooltip("Название игры")] public string title = "Game Title";
@@ -34,7 +38,6 @@ public class TextGameQuest : MonoBehaviour
         for (int i = 0; i < stuff.Length; ++i)
         {
             stuff[i] = startStuff[i];
-            Debug.Log(i + " - " + stuff[i]);
         }
         turnLeft = Random.Range(maxTurn - 3, maxTurn + 3);
     }
@@ -52,6 +55,60 @@ public class TextGameQuest : MonoBehaviour
         }
         goldTextVar.text = stuff[0].ToString();
         locationImageVar.sprite = activeStep.stepImage;
+        if (eventsState[13] == 1)
+        {
+            blessTextVar.text = "Длань Юпитера";
+            blessImageVar.sprite = blessImageExist;
+        }
+        else
+        {
+            blessTextVar.text = "";
+            blessImageVar.sprite = blessImageNotExist;
+        }
+        Debug.Log(eventsState[7]);
+    }
+
+    void GameEventStuffCheck()
+    {
+        bool stuffEnough = true;
+        if ((activeStep.eventNumber == 0) || eventsState[activeStep.eventNumber] == 0)
+        {
+            for (int i = 0; i < 12; ++i)
+            {
+                if (stuff[i] + activeStep.stuffNeed[i] >= 0)
+                {
+                    stuffEnough = stuffEnough && true;
+                }
+                else
+                {
+                    stuffEnough = false;
+                }
+
+            }
+
+            if (stuffEnough == true)
+            {
+                for (int j = 0; j < 12; ++j)
+                {
+                    stuff[j] = stuff[j] + activeStep.stuffNeed[j];
+                }
+
+                if (activeStep.eventChangeNumber == 1)
+                {
+                    eventsState[activeStep.eventNumber] = 1;
+                }
+
+            }
+            else
+            {
+                activeStep = activeStep.nextSteps[2];
+            }
+        }
+        else
+        {
+            activeStep = activeStep.nextSteps[2];
+        }
+
     }
 
     void Start()
@@ -110,8 +167,6 @@ public class TextGameQuest : MonoBehaviour
     }
     void CheckPress(int index)
     {
-        bool stuffEnough = true;
-
         if ((activeStep.nextSteps.Length > index) && activeStep.nextSteps[index] != null)
         {
             turnLeft = turnLeft - 1;
@@ -120,49 +175,14 @@ public class TextGameQuest : MonoBehaviour
 
                 activeStep = activeStep.nextSteps[index];
 
-                if ((activeStep.eventNumber == 0) || eventsState[activeStep.eventNumber] == 0)
-                {
-                    for (int i = 0; i < 12; ++i)
-                    {
-                        if (stuff[i] + activeStep.stuffNeed[i] >=0)
-                        {
-                            stuffEnough = stuffEnough && true;
-                        }
-                        else
-                        {
-                            stuffEnough = false;
-                        }
 
-                    }
-
-                    if (stuffEnough == true)
-                    {
-                        for (int j = 0; j < 12; ++j)
-                        {
-                            stuff[j] = stuff[j] + activeStep.stuffNeed[j];
-                        }
-
-                        if (activeStep.eventChangeNumber == 1)
-                        {
-                            eventsState[activeStep.eventNumber] = 1;
-                        }
-                        
-                    }
-                    else
-                    {
-                        activeStep = activeStep.nextSteps[2];
-                    }
-                }
-                else
-                {
-                    activeStep = activeStep.nextSteps[2];
-                }
-
+                GameEventStuffCheck();
                 GameUpdate();
             }
             else
             {
                 activeStep = activeStep.nextSteps[1];
+                GameEventStuffCheck();
                 GameUpdate();
             }
 
