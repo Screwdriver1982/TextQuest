@@ -65,7 +65,7 @@ public class TextGameQuest : MonoBehaviour
             blessTextVar.text = "";
             blessImageVar.sprite = blessImageNotExist;
         }
-        Debug.Log(eventsState[7]);
+        
     }
 
     void GameEventStuffCheck()
