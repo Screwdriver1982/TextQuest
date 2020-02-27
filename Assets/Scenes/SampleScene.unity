@@ -8693,7 +8693,7 @@ MonoBehaviour:
   blessImageExist: {fileID: 21300000, guid: edd566f02c4a1184f8476b206a9b6116, type: 3}
   blessImageNotExist: {fileID: 21300000, guid: 0d6309ecef0f52742823cfa12c1b590e, type: 3}
   title: Title text
-  maxTurn: 40
+  maxTurn: 50
   startStuff: 640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   activeStep: {fileID: 2006881375}
 --- !u!4 &2136470380
