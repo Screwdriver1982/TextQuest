@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class TextGameQuest : MonoBehaviour
 {
+    public Data dataAsset;
+
     [Header("Elements")]
     public Text titleTextVar;
     public Text contentTextVar;
